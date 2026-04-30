@@ -1,6 +1,6 @@
-def main():
-    print("Hello from column-control!")
+from src.dsc_winequality.logging import logger
 
 
-if __name__ == "__main__":
-    main()
+logger.info("welcome to custom logging")
+
+
