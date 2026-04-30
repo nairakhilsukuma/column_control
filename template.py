@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level = logging.INFO, format = '[%(asctime)s]: %(message)s:')
 
-project_name = "dsc_winequality"
+project_name = "dsc_column_control"
 
 list_of_files = [
     ".gthub/workflows/.gitkeep",  #responsible in doing deployments (github)
